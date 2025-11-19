@@ -1,0 +1,52 @@
+# ===== Python cache =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== Virtual environments =====
+env/
+venv/
+.venv/
+
+# ===== VS Code settings =====
+.vscode/
+
+# ===== OS system files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs =====
+*.log
+
+# ===== Images / Figures (optional) =====
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# ===== Large numerical files (optional) =====
+# 如果你生成了临时 npy/npz 文件，不想上传，可以忽略
+*.npy
+*.npz
+
+# ===== PDF / output docs (optional) =====
+*.pdf
+
+# ===== Raw data (建议将原始实验大文件放这里，不上传 GitHub) =====
+data/raw/
+data/tmp/
+
+# ===== Python package build =====
+build/
+dist/
+*.egg-info/
+
+# ===== Temporary files =====
+*.tmp
+*.bak
+*.old
